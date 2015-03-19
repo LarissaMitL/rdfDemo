@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: 'StripeFun';
+            src: url('StripeFun.ttf') format('truetype'); }
+			
+#
+
+@media screen and (min-width: 100px){
+	body{
+		background-image:url(background.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	
+	#main{
+		width:60px;
+		height:1000px;
+		margin:auto;
+	}
+	
+	#main-header{
+		text-align:center;
+	}
+	h1{
+		font-family:StripeFun;
+		font-size:30px;
+		color:#006;
+	}
+	#header-nav{
+		width:100%;
+	}
+	#t-haupt{
+		font-family:Arial;
+		font-size:18px;
+	}
+	
+	#picture{
+		width:100%;
+		height:24%;
+		background-image:url(../Logo/S-und-L-Production-200-150.gif);
+	}
+
+	#main-text{
+		font-family:StripeFun;
+		text-align: center;
+		font-size: 12px;
+		color:#000;
+	}
+}
+@media screen and (min-width: 200px){
+	body{
+		background-image:url(background.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	
+	#main{
+		width:160px;
+		height:1000px;
+		margin:auto;
+	}
+	
+	#main-header{
+		text-align:center;
+	}
+	h1{
+		font-family:StripeFun;
+		font-size:50px;
+		color:#0CF;
+	}
+	#header-nav{
+		width:100%;
+	}
+	a{
+		color:#FFF;
+		font-family:Arial;
+		text-decoration:none;
+	}
+	#t-haupt{
+		font-family:Arial;
+		font-size:18px;
+	}
+	
+	#picture{
+		width:100%;
+		height:24%;
+		background-image:url(../Logo/S-und-L-Production-200-150.gif);
+	}
+
+	#main-text{
+		font-family:StripeFun;
+		text-align: center;
+		font-size: 30px;
+		color:#000;
+	}
+}
+@media screen and (min-width: 400px){
+	body{
+		background-image:url(background.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	
+	#main{
+		width:360px;
+		height:650px;
+		margin:auto;
+	}
+	
+	#main-header{
+		text-align:center;
+	}
+	h1{
+		font-family:StripeFun;
+		font-size:50px;
+		color:#0CF;
+	}
+	#header-nav{
+		width:100%;
+	}
+	#t-haupt{
+		font-family:Arial;
+		font-size:18px;
+	}
+	
+	#picture{
+		width:100%;
+		height:40%;
+		background-image:url(../Logo/S-und-L-Production-200-150.gif);
+	}
+
+	#main-text{
+		font-family:StripeFun;
+		text-align: center;
+		font-size: 30px;
+		color:#000;
+	}
+}
+@media screen and (min-width: 600px){
+	body{
+		background-image:url(background.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	
+	#main{
+		width:550px;
+		height:600px;
+		margin:auto;
+	}
+	
+	#main-header{
+		text-align:center;
+	}
+	h1{
+		font-family:StripeFun;
+		font-size:50px;
+		color:#0CF;
+		float:right;
+	}
+	#header-nav{
+		width:99.5%;
+	}
+	#t-haupt{
+		font-family:Arial;
+		font-size:18px;
+	}
+	
+	#picture{
+		width:100%;
+		height:25%;
+		background-image:url(../Logo/S-und-L-Production-200-150.gif);
+		float:left;
+	}
+
+	#main-text{
+		font-family:StripeFun;
+		text-align: center;
+		font-size: 30px;
+		color:#000;
+	}
+}
+@media screen and (min-width: 800px){
+	body{
+		background-image:url(background.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	
+	#main{
+		width:760px;
+		height:600px;
+		margin:auto;
+	}
+	
+	#main-header{
+		text-align:center;
+	}
+	h1{
+		font-family:StripeFun;
+		font-size:50px;
+		color:#0CF;
+		float:right;
+	}
+	#header-nav{
+		width:100%;
+	}
+	#t-haupt{
+		font-family:Arial;
+		font-size:18px;
+	}
+	
+	#picture{
+		width:39%;
+		height:37%;
+		float:right;
+		background-image:url(../Logo/S-und-L-Production-200-150.gif);
+		float:left;
+	}
+
+	#main-text{
+		font-family:StripeFun;
+		text-align: center;
+		font-size: 30px;
+		color:#000;
+	}
+}
+@media screen and (min-width: 1000px){
+	body{
+		background-image:url(background.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	
+	#main{
+		width:960px;
+		height:600px;
+		margin:auto;
+	}
+	
+	#main-header{
+		text-align:center;
+	}
+	h1{
+		font-family:StripeFun;
+		font-size:50px;
+		color:#0CF;
+	}
+	#header-nav{
+		width:100%;
+		top:100px;
+	}
+	#t-haupt{
+		font-family:Arial;
+		font-size:18px;
+	}
+	
+	#picture{
+		width:20%;
+		height:25%;
+		float:right;
+		background-image:url(../Logo/S-und-L-Production-200-150.gif);
+		float:left;
+	}
+	
+	#main-text{
+		font-family:StripeFun;
+		text-align: center;
+		font-size: 30px;
+		color:#000;
+	}
+}
